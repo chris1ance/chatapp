@@ -5,7 +5,7 @@ from threading import Thread
 
 import gradio as gr
 import torch
-from config import DEFAULT_MODEL_ID, DEFAULT_SYSTEM_PROMPT
+from chatconfig import DEFAULT_MODEL_ID, DEFAULT_SYSTEM_PROMPT
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
